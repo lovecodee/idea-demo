@@ -60,7 +60,7 @@ public class BasicController {
             }
         }
     }
-
+    // 保存用户信息
     // http://127.0.0.1:8080/save_user?name=newName&age=11
     @RequestMapping("/save_user")
     @ResponseBody
