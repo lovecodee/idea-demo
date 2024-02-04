@@ -65,7 +65,7 @@ public class BasicController {
     @RequestMapping("/save_user")
     @ResponseBody
     public String saveUser(User u) {
-        return "user will save: name=" + u.getName() + ", age=" + u.getAge();
+        return "user will save: name " + u.getName() + ", age=" + u.getAge();
     }
 
     @ModelAttribute
